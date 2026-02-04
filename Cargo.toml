@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "shield-core",
+    "shield-cli",
+    "shield-tui",
+    "shield-daemon", "shield-gui",
+]
+resolver = "2"

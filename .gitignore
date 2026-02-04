@@ -1,0 +1,29 @@
+# .gitignore for Shield Project
+
+# Rust / Cargo
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Shield specific
+*.db
+*.db-shm
+*.db-wal
+*.zip
+shield.db
+ShieldDist/
+ShieldSetup.exe
+UserManual.md
+CHANGELOG.md
+setup.iss
+*.ps1

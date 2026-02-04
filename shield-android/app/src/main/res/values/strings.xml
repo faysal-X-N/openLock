@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shield Password Manager</string>
+    <string name="welcome_message">Welcome to Shield</string>
+    <string name="btn_dashboard">Go to Dashboard</string>
+    <string name="dashboard_title">Analytics Dashboard</string>
+    <string name="chart_password_strength">Password Strength Distribution</string>
+    <string name="chart_account_types">Account Types</string>
+</resources>

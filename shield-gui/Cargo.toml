@@ -1,0 +1,20 @@
+[package]
+name = "shield-gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.26"
+shield-core = { path = "../shield-core" }
+anyhow = "1.0"
+rpassword = "7.0"
+secrecy = "0.10"
+dirs = "5.0"
+copypasta = "0.10" # For clipboard support
+uuid = { version = "1.0", features = ["v4"] }
+open = "5.0"
+sys-locale = "0.3.2"
+
+[windows_subsystem]
+# This hides the console window when running the release build
+subsystem = "windows"
