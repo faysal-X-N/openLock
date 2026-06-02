@@ -27,3 +27,6 @@ UserManual.md
 CHANGELOG.md
 setup.iss
 *.ps1
+local.properties
+debug.log
+*.log
